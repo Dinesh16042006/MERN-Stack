@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+h2 {
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  background: gold;
+  color: rgba(255, 255, 255, 0.808);
+}
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.delete-icon {
+  color: #e74c3c;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+.delete-icon:hover {
+  color: #c0392b;
+}
